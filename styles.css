@@ -225,3 +225,136 @@ li,a{
         transition: all 300ms ease 0s;
     }
 }
+
+/* O FIRMI */
+
+#oFirmi{
+    background-color: #EEEEEE;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23c6c6c6' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");    
+    
+}
+#oFirmiNaslov{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: clamp(1.5rem, 4rem, 5rem);
+    text-align: center;
+    top: 13.6%;
+    color: #000;
+    text-decoration:underline;
+    text-decoration-color:#CE1212;
+    text-decoration-thickness:10px;
+}
+#sleper{
+    position: relative;
+    top: 9%;
+    height: 10%;
+    width: 8%;
+    left: 5%;
+}
+#user{
+    position: relative;
+    top: 9%;
+    height: 10%;
+    width: 5%;
+    left: 23%;
+}
+#clock{
+    position: relative;
+    top: 9%;
+    height: 10%;
+    width: 5%;
+    left: 50%;
+}
+#sleper2{
+    position: relative;
+    top:15%;
+    height: 20%;
+    width: 10%;
+    left:66%;
+}
+#sleperText{
+    position: relative;
+    top: 9%;
+    left: 5.6%;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #CE1212;
+}
+#userText{
+    position: relative;
+    top: 3%;
+    left: 32.4%;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #CE1212;
+}
+#clockText{
+    position: relative;
+    top:-2.9%;
+    left: 65%;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #CE1212;
+}
+#sleper2Text{
+    position: relative;
+    top: -8.8%;
+    left: 88.6%;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #CE1212;
+}
+#sleperOpis{
+    position: relative;
+    top: -9.5%;
+    left:1.5%;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #000;
+}
+#clockOpis{
+    position: relative;
+    top: -15.7%;
+    left:59.5%;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #000;
+}
+#userOpis{
+    position: relative;
+    top: -12.4%;
+    left:28.3%;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #000;
+}
+#sleper2Opis{
+    position: relative;
+    top: -18.9%;
+    left:83.4%;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #000;
+}
+#Partneri{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: clamp(1.5rem, 4rem, 5rem);
+    text-align: center;
+    top:-10.2%;
+    color: #000;
+    text-decoration:underline;
+    text-decoration-color:#CE1212;
+    text-decoration-thickness:10px;
+}
+
