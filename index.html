@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="styles.css">
         <script src="https://kit.fontawesome.com/172f56822d.js" crossorigin="anonymous" defer></script>
         <script src="main.js" defer></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <title>Šlep Služba Zilić</title>
     </head>
     <body>
@@ -70,7 +71,10 @@
         </section>
         <section id="mogucnosti">
             <div class="activities" >
-                <h1 class="naslov2" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-out">Što vam mi nudimo?</h1>
+                <h1 id="mogucnostNaslov" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-out">Mogućnosti</h1>
+            </div>
+            <div id="oMogucnostima">
+                <h1 id="opisMogucnosti">Motivirajuci pasus o mogucnostima.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum odio et mi porta tincidunt. Nam efficitur quam vitae tortor facilisis fringilla. Nullam sem dui, tincidunt facilisis diam in, tempus feugiat enim. In eu bibendum nisi, at ullamcorper erat. Integer non lorem velit. Nulla vel elit sed lorem sagittis luctus eget in arcu. Vestibulum vitae turpis euismod, laoreet neque et, dignissim nunc. Phasellus semper id lorem non dignissim.</h1>
             </div>
             <div class="carusel" data-carusel>
                 <button class="next" data-carusel-button="next">&Gg;</button>  
@@ -79,12 +83,10 @@
                 <ul data-slides>
                     <li class="slides"data-active>
                         <button class="learnMore" id="learn" style="opacity: 1;">&#8942;</button>
-                        <h1 class="naslovcic" id="naslovslajda" style="opacity: 1;">Adrenalinski Parkovi</h1>
+                        <h1 class="naslovcic" id="naslovslajda" style="opacity: 1;">Slepanje</h1>
                         <p class="oAdrenalinu" id="Adrenalin">Adrenalinski sadržaji su sve više popularni na našim prostorima, pa su tako i adrenalin parkovi u velikoj ekspanziji. Adrenalin park možemo podijeliti na tri cjeline, odnosno sadržaja. To su: Adrenalinska staza koja može biti prilagođena djeci i sadržava niz mostića i prepreka koji idu od drveta do drveta, ili odraslima, to jest veliki adrenalinski park sadržava neke od zahtjevnih i napornih prepreka, namijenjenih razvoju i usavršavanju i aktivnih sportista. Umjetna stijena, koja može biti montirana na stablo ili na objekat, njena površina je oplemenjena kamenim hvatovima koji imitiraju prave oprimke. I kao treći sadržaj zip line, koji daje dozu adrenalina bez ikakvog napora. Scorpio je kreator i izvođač radova pretežno svih parkova u BiH : Pionirska Dolina, Hutovo blato, Sunnyland, Napredak, Ormanj, Malak farma, Brus, Peć Mlini, Široki Brijeg, zip line Fortica, Jajce...</p>
-                        <img src="./imgs/1.jpg" class="slide" alt="Adrenalin Park 1">
-                        <img src="./imgs/2.jpg" class="slide" alt="Adrenalin Park 2">
-                        <img src="./imgs/3.jpg" class="slide" alt="Adrenalin Park 3">
-                        <img src="./imgs/4.jpg" class="slide" alt="Adrenalin Park 4">
+                        <img src="./imgs/Slepanje.jpg" class="slide" alt="Adrenalin Park 1">
+    
                     </li>
                     <li class="slides">
                         <button class="learnMore" id="learn1" style="opacity: 1;">&#8942;</button>
@@ -155,5 +157,9 @@
                 <a class="fbIcon" href="https://www.facebook.com/zila1996/" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
             </div>
         </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
