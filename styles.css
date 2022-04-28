@@ -325,16 +325,13 @@ li,a{
     font-weight: 800;
     font-size: clamp(1rem, 3rem, 4rem);
     color: #CE1212;
-    -webkit-text-stroke-color:#040303 ;
-    -webkit-text-stroke-width: 1px;
+    
 }
 #userText{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: clamp(1rem, 3rem, 4rem);
     color: #CE1212;
-    -webkit-text-stroke-color:#040303 ;
-    -webkit-text-stroke-width: 1px;
 }
 
 #clockText{
@@ -342,16 +339,14 @@ li,a{
     font-weight: 800;
     font-size: clamp(1rem, 3rem, 4rem);
     color: #CE1212;
-    -webkit-text-stroke-color:#040303 ;
-    -webkit-text-stroke-width: 1px;
+    
 }
 #sleper2Text{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: clamp(1rem, 3rem, 4rem);
     color: #CE1212;
-    -webkit-text-stroke-color:#040303 ;
-    -webkit-text-stroke-width: 1px;
+    
 }
 
 
@@ -361,7 +356,7 @@ li,a{
     font-weight: 800;
     font-size: clamp(1.5rem, 4rem, 5rem);
     text-align: center;
-    top:11.2%;
+    top:1.2%;
     color: #000;
     text-decoration:underline;
     text-decoration-color:#CE1212;
@@ -497,3 +492,18 @@ li,a{
      transition: opacity 350ms ease-in-out;
      
  }
+ @media only screen and (max-width: 1360px){
+    #oFirmiCards{
+        flex-direction: column;
+    }
+    #sleperCard{
+        padding-left: 0;
+    }
+    #sleper2Card{
+        padding-right: 0;
+    }
+    #oFirmi{
+        height: 2000px;
+    }
+    
+    }
