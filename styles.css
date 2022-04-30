@@ -486,25 +486,27 @@ li,a{
      width: 75%;
      position: relative;
      left:25%;
-     top: -55.5%;
+     top: -58.2%;
      box-shadow: 0 0 40px 0 rgba(0,0, 0, 0.5);
-     transform: skewY(5deg);
+     transform: skewY(3deg);
      overflow: hidden;
  }
  
  .naslovcic{
      position: absolute;
      width: fit-content;
+     height: fit-content;
      color: white;
      z-index: 1;
      top: 2rem;
      padding-left: 2rem;
      padding-right: 2rem;
-     padding-top: 0.5rem;
-     padding-bottom: 0.5rem;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
      background-color: rgba(0,0, 0, .4);
      font-size: 3rem;
-     font-family: 'Smooch Sans', sans-serif;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 800;
      line-height: 0.7;
      outline: 2px solid #CE1212;
      transition: opacity 350ms ease-in-out;
@@ -522,7 +524,7 @@ li,a{
     font-weight: 800;
     font-size: clamp(0.5rem, 1.3rem, 3rem);
     color: #F7F7F7;
-    padding-left: 5px;
+    padding-left: 10px;
  }
  @media only screen and (max-width: 1360px){
     #oFirmiCards{
