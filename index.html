@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <script src="https://kit.fontawesome.com/172f56822d.js" crossorigin="anonymous" defer></script>
-        <script src="main.js" defer></script>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <title>Šlep Služba Zilić</title>
     </head>
@@ -168,7 +168,39 @@
 
         </section>
         <section id="recenzije">
-
+            <div class="reviewCard">
+                <p class="naslov white">ŠTA DRUGI KAŽU O NAMA</p>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="./imgs/reviewTest.jpg" alt="" class="reviewPicture">
+                            <p class="naslov white">Neko Nekić</p>
+                            <img src="./imgs/reviewStars.png" alt="" class="stars">
+                            <p class="tekst white">Najbolja šlep služba judi</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./imgs/reviewTest.jpg" alt="" class="reviewPicture">
+                            <p class="naslov white">Mujo Mujić</p>
+                            <img src="./imgs/reviewStars.png" alt="" class="stars">
+                            <p class="tekst white">Najbolji u gradu. Sve za 10.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./imgs/reviewTest.jpg" alt="" class="reviewPicture">
+                            <p class="naslov white">Suljo Suljić</p>
+                            <img src="./imgs/reviewStars.png" alt="" class="stars">
+                            <p class="tekst white">Najbrža šlep služba u regionu.</p>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
         </section>
         <section id="kontakt">
             <p class="naslov white">KONTAKT</p>
@@ -177,8 +209,21 @@
             </div>
         </section>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="main.js"></script>
         <script>
             AOS.init();
+            window.onscroll = function() {
+                scrollFunction()
+            };
+            function scrollFunction() {
+                if (document.body.scrollTop > (window.innerHeight-80) || document.documentElement.scrollTop > (window.innerHeight-80)) {
+                    document.getElementById("navbar").style.background = "rgba(4, 3, 3, 0.8)";
+                } else {
+                    document.getElementById("navbar").style.transition = "all 500ms ease-out";
+                    document.getElementById("navbar").style.background="none";
+                }
+            }
         </script>
     </body>
 </html>

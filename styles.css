@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth !important;
+    --swiper-theme-color: #CE1212;
+    --swiper-pagination-bullet-inactive-color: rgb(206, 18, 18);
 }
 
 /* NAVBAR */
 
 header{
-    background-color: rgba(4, 3, 3, 0.9);
+    background-color: none;
     z-index: 100;
     display: flex;
     justify-content: space-between;
@@ -195,20 +197,6 @@ span{
     transform: scaleX(1);
 }
 
-/*
-.contactButton:hover{
-    transition: 1s ease-out;
-    border: 0.1rem solid #CE1212;
-    box-shadow: 0 0 .2rem #CE1212,
-              0 0 .2rem #CE1212,
-              0 0 2rem #CE1212,
-              0 0 0.8rem #CE1212,
-              0 0 2.8rem #CE1212,
-              inset 0 0 1.3rem #CE1212;
-
-}
-
-*/
 /* TEKST */
 
 li,a{
@@ -257,6 +245,61 @@ li,a{
 
 .black{
     color: #040303
+}
+
+/* RECENZIJE */
+
+.swiper {
+    width: 60vw;
+    height: 60vh;
+}
+
+
+.swiper-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#recenzije{
+    background-image: url(./imgs/reviewBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewCard>.naslov{
+    margin: 2rem 0;
+}
+
+.swiper-slide>.tekst{
+    margin-bottom: 2rem;
+}
+
+.reviewCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    height: 75vh;
+    background-color: rgba(4, 3, 3, 0.7);
+    border-radius: 5%;
+}
+
+.reviewPicture{
+    aspect-ratio: initial !important;
+    height: 15vh;
+    border: 0.2rem solid #CE1212;
+    border-radius: 100%;
+}
+
+.stars{
+    aspect-ratio: initial !important;
+    width: 25vw;
 }
 
 /* KONTAKT */
@@ -333,6 +376,21 @@ li,a{
     /* NASLOVNA */
     .naslovNaslovna{
         padding-bottom: 1rem;
+    }
+
+    /* REVIEWS */
+
+    .reviewCard{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .swiper{
+        width: 100%;
+    }
+
+    .stars{
+        width: 50vw;
     }
 }
 
